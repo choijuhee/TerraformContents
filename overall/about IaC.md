@@ -103,7 +103,7 @@ code 수준에서, 좀 더 자유롭게 동작 구성이 가능하다. 특히 La
 [Image: Image.jpg][Image: Image.jpg]
 
 
-### 사용 문법
+###사용 문법
 
 ```
 import boto3
@@ -122,7 +122,7 @@ log_group_list = client.describe_log_groups()
 * client.{api 명} : 해당  Resource type 에 맞는 Client 에서 호출 가능한 API 를 호출한다
 * 이후 API 결과 값을 활용하여, 다른 함수를 호출 할때 사용할 수 있다 
 
-### 사용 예제
+###사용 예제
 
 **[EC2 API 호출]**
 
